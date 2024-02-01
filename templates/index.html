@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="dicoding:email" content="adamw1613@gmail.com">
     <title>Color Detection</title>
+    <style>
+body {
+  background: #FFF;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content img {
+  max-width: 100%;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+</style>
 </head>
 <body>
-    <h1>Pengenal Warna</h1>
+<div class="content">
+    <h1>Color Recognition</h1>
     <img id="video_feed" src="{{ url_for('video_feed') }}">
+    <p>Color Recognition adalah teknologi yang membantu penderita gangguan penglihatan warna dalam mengenali dan membedakan warna secara efektif. Teknologi ini berupaya membuat konten visual lebih mudah diinterpretasikan oleh mereka yang menderita buta warna, mendorong kesetaraan akses terhadap informasi dan pengalaman yang lebih ramah pengguna.</p>
+</div>
+
 </body>
 </html>
